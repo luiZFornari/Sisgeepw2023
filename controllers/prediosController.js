@@ -1,4 +1,4 @@
-const { getPrediosDB, addPredioDB, updatePredioDB, deletePredioDB, getPredioPorCodigoDB } = require('../usecases/predioUseCases')
+const { getPrediosDB, addPredioDB, updatePredioDB, deletePredioDB, getPredioPorCodigoDB } = require('../useCases/predioUseCases')
 
 const getPredios = async (request, response) => {
     await getPrediosDB()
