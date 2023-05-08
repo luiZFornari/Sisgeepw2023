@@ -15,7 +15,7 @@ if (isProduction) {
     user: "postgres",
     host: "localhost",
     database: "SISGEE",
-    password: "4231",
+    password: "postgres",
     port: 5432,
   });
 }

@@ -16,17 +16,14 @@ rotas
   .get(prediosController.getPredioPorCodigo)
   .delete(prediosController.deletePredio);
 
-rotas
-  .route("/salas")
-  .get(salasController.getsalas)
-  .post(salasController.addsala)
-  .put(salasController.updatesala);
+  rotas.route("/salas")
+  .get(salasController.getSalas)
+  .post(salasController.addSala)
+  .put(salasController.updateSala)
 
-rotas
-  .route("/salas/:codigo")
-  .get(salasController.getsalaPorCodigo)
-  .delete(salasController.deletesala);
+rotas.route('/salas/:codigo')
+  .get(salasController.getSalaPorCodigo)
+  .delete(salasController.deleteSala)
 
-rotas.route("/predios/sala/:codigo").get(salasController.getsalaPorPredio);
 
 module.exports = rotas;
