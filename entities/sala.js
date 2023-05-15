@@ -1,5 +1,5 @@
 class Sala {
-  constructor(codigo, numero, descricao, capacidade, predio,nomepredio) {
+  constructor(codigo, numero, descricao, capacidade, predio, nomepredio) {
     this.codigo = codigo;
     this.numero = numero;
     this.descricao = descricao;
