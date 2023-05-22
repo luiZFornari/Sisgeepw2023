@@ -1,5 +1,5 @@
 class Predio {
-    constructor(codigo, nome, descricao, sigla) {
+    constructor(codigo, nome, descricao, sigla){
         this.codigo = codigo;
         this.nome = nome;
         this.descricao = descricao;
